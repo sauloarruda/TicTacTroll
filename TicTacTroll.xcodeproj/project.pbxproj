@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F9AED10159BE33400B08950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9AED0F159BE33400B08950 /* UIKit.framework */; };
+		9F9AED12159BE33400B08950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9AED11159BE33400B08950 /* Foundation.framework */; };
+		9F9AED14159BE33400B08950 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9AED13159BE33400B08950 /* CoreGraphics.framework */; };
+		9F9AED1A159BE33400B08950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AED18159BE33400B08950 /* InfoPlist.strings */; };
+		9F9AED1C159BE33400B08950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AED1B159BE33400B08950 /* main.m */; };
+		9F9AED20159BE33400B08950 /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AED1F159BE33400B08950 /* TTTAppDelegate.m */; };
+		9F9AED23159BE33400B08950 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AED21159BE33400B08950 /* MainStoryboard.storyboard */; };
+		9F9AED26159BE33400B08950 /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AED25159BE33400B08950 /* TTTViewController.m */; };
+		9F9AED2D159BE64000B08950 /* bgTicTacTroll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AED2C159BE64000B08950 /* bgTicTacTroll@2x.png */; };
+		9F9AED49159BE8C200B08950 /* bgForeverAlone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AED47159BE8C200B08950 /* bgForeverAlone@2x.png */; };
+		9F9AED4A159BE8C200B08950 /* bgTrollFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9AED48159BE8C200B08950 /* bgTrollFace@2x.png */; };
+		9F9AED4D159BEAB700B08950 /* TTTGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9AED4C159BEAB700B08950 /* TTTGameEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F9AED0B159BE33400B08950 /* TicTacTroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacTroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9AED0F159BE33400B08950 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F9AED11159BE33400B08950 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F9AED13159BE33400B08950 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F9AED17159BE33400B08950 /* TicTacTroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacTroll-Info.plist"; sourceTree = "<group>"; };
+		9F9AED19159BE33400B08950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F9AED1B159BE33400B08950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F9AED1D159BE33400B08950 /* TicTacTroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicTacTroll-Prefix.pch"; sourceTree = "<group>"; };
+		9F9AED1E159BE33400B08950 /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		9F9AED1F159BE33400B08950 /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		9F9AED22159BE33400B08950 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9F9AED24159BE33400B08950 /* TTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTViewController.h; sourceTree = "<group>"; };
+		9F9AED25159BE33400B08950 /* TTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
+		9F9AED2C159BE64000B08950 /* bgTicTacTroll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgTicTacTroll@2x.png"; sourceTree = "<group>"; };
+		9F9AED47159BE8C200B08950 /* bgForeverAlone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgForeverAlone@2x.png"; sourceTree = "<group>"; };
+		9F9AED48159BE8C200B08950 /* bgTrollFace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgTrollFace@2x.png"; sourceTree = "<group>"; };
+		9F9AED4B159BEAB700B08950 /* TTTGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTGameEngine.h; sourceTree = "<group>"; };
+		9F9AED4C159BEAB700B08950 /* TTTGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTGameEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9AED08159BE33400B08950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9AED10159BE33400B08950 /* UIKit.framework in Frameworks */,
+				9F9AED12159BE33400B08950 /* Foundation.framework in Frameworks */,
+				9F9AED14159BE33400B08950 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9AED00159BE33400B08950 = {
+			isa = PBXGroup;
+			children = (
+				9F9AED15159BE33400B08950 /* TicTacTroll */,
+				9F9AED0E159BE33400B08950 /* Frameworks */,
+				9F9AED0C159BE33400B08950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9AED0C159BE33400B08950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AED0B159BE33400B08950 /* TicTacTroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9AED0E159BE33400B08950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AED0F159BE33400B08950 /* UIKit.framework */,
+				9F9AED11159BE33400B08950 /* Foundation.framework */,
+				9F9AED13159BE33400B08950 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9AED15159BE33400B08950 /* TicTacTroll */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AED2E159BE71900B08950 /* Resources */,
+				9F9AED1E159BE33400B08950 /* TTTAppDelegate.h */,
+				9F9AED1F159BE33400B08950 /* TTTAppDelegate.m */,
+				9F9AED21159BE33400B08950 /* MainStoryboard.storyboard */,
+				9F9AED24159BE33400B08950 /* TTTViewController.h */,
+				9F9AED25159BE33400B08950 /* TTTViewController.m */,
+				9F9AED16159BE33400B08950 /* Supporting Files */,
+				9F9AED4B159BEAB700B08950 /* TTTGameEngine.h */,
+				9F9AED4C159BEAB700B08950 /* TTTGameEngine.m */,
+			);
+			path = TicTacTroll;
+			sourceTree = "<group>";
+		};
+		9F9AED16159BE33400B08950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AED17159BE33400B08950 /* TicTacTroll-Info.plist */,
+				9F9AED18159BE33400B08950 /* InfoPlist.strings */,
+				9F9AED1B159BE33400B08950 /* main.m */,
+				9F9AED1D159BE33400B08950 /* TicTacTroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F9AED2E159BE71900B08950 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AED47159BE8C200B08950 /* bgForeverAlone@2x.png */,
+				9F9AED48159BE8C200B08950 /* bgTrollFace@2x.png */,
+				9F9AED2C159BE64000B08950 /* bgTicTacTroll@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9AED0A159BE33400B08950 /* TicTacTroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9AED29159BE33400B08950 /* Build configuration list for PBXNativeTarget "TicTacTroll" */;
+			buildPhases = (
+				9F9AED07159BE33400B08950 /* Sources */,
+				9F9AED08159BE33400B08950 /* Frameworks */,
+				9F9AED09159BE33400B08950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacTroll;
+			productName = TicTacTroll;
+			productReference = 9F9AED0B159BE33400B08950 /* TicTacTroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9AED02159BE33400B08950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Jera;
+			};
+			buildConfigurationList = 9F9AED05159BE33400B08950 /* Build configuration list for PBXProject "TicTacTroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F9AED00159BE33400B08950;
+			productRefGroup = 9F9AED0C159BE33400B08950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9AED0A159BE33400B08950 /* TicTacTroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9AED09159BE33400B08950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9AED1A159BE33400B08950 /* InfoPlist.strings in Resources */,
+				9F9AED23159BE33400B08950 /* MainStoryboard.storyboard in Resources */,
+				9F9AED2D159BE64000B08950 /* bgTicTacTroll@2x.png in Resources */,
+				9F9AED49159BE8C200B08950 /* bgForeverAlone@2x.png in Resources */,
+				9F9AED4A159BE8C200B08950 /* bgTrollFace@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9AED07159BE33400B08950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9AED1C159BE33400B08950 /* main.m in Sources */,
+				9F9AED20159BE33400B08950 /* TTTAppDelegate.m in Sources */,
+				9F9AED26159BE33400B08950 /* TTTViewController.m in Sources */,
+				9F9AED4D159BEAB700B08950 /* TTTGameEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F9AED18159BE33400B08950 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9AED19159BE33400B08950 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F9AED21159BE33400B08950 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9AED22159BE33400B08950 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F9AED27159BE33400B08950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F9AED28159BE33400B08950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9AED2A159BE33400B08950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicTacTroll/TicTacTroll-Prefix.pch";
+				INFOPLIST_FILE = "TicTacTroll/TicTacTroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F9AED2B159BE33400B08950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicTacTroll/TicTacTroll-Prefix.pch";
+				INFOPLIST_FILE = "TicTacTroll/TicTacTroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9AED05159BE33400B08950 /* Build configuration list for PBXProject "TicTacTroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9AED27159BE33400B08950 /* Debug */,
+				9F9AED28159BE33400B08950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9AED29159BE33400B08950 /* Build configuration list for PBXNativeTarget "TicTacTroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9AED2A159BE33400B08950 /* Debug */,
+				9F9AED2B159BE33400B08950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9AED02159BE33400B08950 /* Project object */;
+}
